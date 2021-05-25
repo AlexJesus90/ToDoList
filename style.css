@@ -11,9 +11,9 @@ body {
   font-family: 'Newsreader', serif;
 }
 
-.container {
+.container {  
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 25vh;
 }
 
 #enter:hover {
@@ -51,10 +51,26 @@ li {
 }
 
 footer {
-  /* margin-top: 100vh; */
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 2em;
+  }
+
+  input {
+    height:30px;
+  }
+
+  button {
+    width: 60px;
+    height: 30px;
+    margin: 1%;
+    margin-bottom: 0px;
+  }
 }
 
